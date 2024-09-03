@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+i{
+    color: #85868bd7;
+    padding-right: 3px;
+    font-size: 15px;
+
+}
+
+a{
+    color:rgb(196, 182, 182);
+    font-size: 15px;
+}
+
+.sidebar{
+    background-color: #5A4BBF;
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 34px;
+}
+
+.formacao-academica{
+    font-size: 22px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 41px;
+}
+
+.formacao{
+    text-align: center;
+    color:rgb(196, 182, 182);
+    font-size: 15px;
+
+}
+
+.idiomas{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 41px;
+}
+
+.info-idiomas{
+    margin-left: 37px;
+    color:rgb(196, 182, 182);
+    font-size: 15px;
+}
+
+.info-idiomas p{
+    margin: 2px;
+}
+
+.curriculo{
+    margin-left: 260px;
+}
+
+
+
+.perfil{
+    background-image: url(assets/img-ravena.png);
+    width: 165px;
+    height: 165px;
+    background-size: 155px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #FFF;
+    object-position: center;
+}
+
+.nome{
+    height: 120px;
+    align-content: center;
+    text-align: center;
+    font-size: 21px;
+    color: #5A4BBF;
+}
+
+.sobre-mim h2{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #5A4BBF;
+}
+
+
+
+.xp{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #5A4BBF;
+}
+
+.ano, .empresa{
+    display: block;
+}
+
+
+.experiencia{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-size: 18px;
+}
+.cargo{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.cargo h4{
+    margin: 0;
+    font-size: 20px;
+    color: #5A4BBF;
+
+}
+
+.linguagem{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 5%;
+    vertical-align: top;
+    margin: 0;
+    color: #A8A9AD;
+}
+
+.competencia{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #5A4BBF;
+
+}
+
+.info-linguagem{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+
+}
+
+
+
+
+
+
